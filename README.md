@@ -102,7 +102,9 @@ https://www.raspberrypi.org/software/
 
 ### Raspberry Pi OSとは
 
-
+### C#アプリの動かし方
+- monoを使えばいける？
+  - https://www.buildinsider.net/small/raspisignalr/01
 
 
 # その他
