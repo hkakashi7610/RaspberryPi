@@ -29,8 +29,10 @@
 - Micro SD port for loading your operating system and storing data
 - Upgraded switched Micro USB power source up to 2.5A
 
-![Raspberry Pi Model B](https://www.raspberrypi.org/homepage-9df4b/static/2efe82d07c653f3f638c0cbf54346b5d/ae23f/67d8fcc5b2796665a45f61a2e8a5bb7f10cdd3f5_raspberry-pi-3-1-1619x1080.jpg)
+![Raspberry Pi Model B(View)](https://www.raspberrypi.org/homepage-9df4b/static/2efe82d07c653f3f638c0cbf54346b5d/ae23f/67d8fcc5b2796665a45f61a2e8a5bb7f10cdd3f5_raspberry-pi-3-1-1619x1080.jpg)
 -
+![Raspberry Pi Model B(Pin)](https://docs.microsoft.com/ja-jp/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png)
+
 ### [例]Raspberry Pi 4 Model B
 
 ![Raspberry Pi Model B](https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png)
@@ -102,6 +104,14 @@ https://www.raspberrypi.org/software/
 
 ### Raspberry Pi OSとは
 
+### C#アプリの動かし方
+- monoを使えばいける？
+  - https://www.buildinsider.net/small/raspisignalr/01
+
+### UWPでグラフ(LiveCharts編)
+参考サイト：https://qiita.com/myasu/items/e8980be544761d668a82#livecharts%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB
+- [Nugetパッケージの管理]－[参照]を選択し[LiveCharts]を検索
+- LiveCharts.Uwpを選択しインストール
 
 
 
