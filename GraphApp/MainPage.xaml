@@ -10,6 +10,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.Resources>
+            <Style TargetType="lvc:Separator">
+                <Setter Property="Stroke" Value="#69000000"></Setter>
+                <Setter Property="StrokeThickness" Value=".8"></Setter>
+                <Setter Property="StrokeDashArray" Value="2"></Setter>
+            </Style>
+        </Grid.Resources>
         <!--ページを2分割にする-->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
