@@ -99,21 +99,37 @@
 - VisualStudioのプロパティーアプリケーションーターゲットー最小バージョンをWindows10 version1819 ビルド17763
 - その後、デバッグの認証モードがWindowsに初期されてしまうので、ユニバーサルに変更すること
 
-
-## OSに Raspberry Pi OS を使う場合
-https://www.raspberrypi.org/software/
-
-### Raspberry Pi OSとは
-
-### C#アプリの動かし方
-- monoを使えばいける？
-  - https://www.buildinsider.net/small/raspisignalr/01
-
-### UWPでグラフ(LiveCharts編)
+#### UWPでグラフ(LiveCharts編)
 参考サイト：https://qiita.com/myasu/items/e8980be544761d668a82#livecharts%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB
 - [Nugetパッケージの管理]－[参照]を選択し[LiveCharts]を検索
 - LiveCharts.Uwpを選択しインストール
 
+## OSに Raspberry Pi OS を使う場合
+
+### Raspberry Pi OSとは
+
+参考サイト(https://www.raspberrypi.org/software/)
+
+- Windows 10 IoT は、Windows 10 ファミリのメンバーで主に組み込みをターゲット
+- Windows 10 IoT Core と Windows 10 IoT Enterprise の2つのエディション
+- Windows 10 IoT Enterpriseは、ほぼPC版と同じで、x86(x64)のみサポート
+- Windows 10 IoT Core は、UWP UIのみサポート(1度に1つのみ)し、ARMをサポートする。Raspberry Piは 2と3のみをサポート
+- Windowsの次の長期サポート（LTS）リリースでは、Windows 10 IoT CoreとWindows 10 IoT Enterpriseを統合する
+- この統合されたバージョンは、Windows 10 IoT Enterpriseという名称になる予定(2021年)
+
+### Raspberry Pi OSセットアップ手順
+参考サイト(https://www.raspberrypi.org/software/)
+
+1. Raspberry Pi Imager をインストール
+2. [Raspberry Pi OS [32bit]]を選択します
+3. SDカードにインストール
+4. Raspberry PiにSDカードをさして電源オンする
+- このときサイズの小さい液晶（約５インチ）を使っていると画面にしましまがでるだけで正常に起動しなかった。解像度が合わないためだったのか、通常のPCで使うサイズのモニタに変更したところ正常に起動するようになった。
+5. 各種初期設定をウィザードにしたがってすすめるだけで作業完了
+
+### C#アプリの動かし方
+- monoを使えばいける？
+  - https://www.buildinsider.net/small/raspisignalr/01
 
 
 # その他
