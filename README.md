@@ -127,6 +127,12 @@
 - このときサイズの小さい液晶（約５インチ）を使っていると画面にしましまがでるだけで正常に起動しなかった。解像度が合わないためだったのか、通常のPCで使うサイズのモニタに変更したところ正常に起動するようになった。
 5. 各種初期設定をウィザードにしたがってすすめるだけで作業完了
 
+### Pythonのバージョン
+- 標準ではpythonの実行はPython2.7.16が使用される
+- 実際には、python 3系もインストールされているとのこと
+- 下記サイトを参考に、3系を標準にできる
+  pythonhttps://www.souichi.club/raspberrypi/python3-default/
+
 ### C#アプリの動かし方
 - monoを使えばいける？
   - https://www.buildinsider.net/small/raspisignalr/01
