@@ -132,6 +132,13 @@
 - 実際には、python 3系もインストールされているとのこと
 - 下記サイトを参考に、3系を標準にできる
   pythonhttps://www.souichi.club/raspberrypi/python3-default/
+  
+### Raspberry Pi上のPython開発環境
+http://wheelchairtext.net/program/1745/
+- Thonnyとspyderがある
+- VSCodeも使える
+
+
 
 ### C#アプリの動かし方
 - monoを使えばいける？
