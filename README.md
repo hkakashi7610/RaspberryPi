@@ -152,7 +152,7 @@ http://wheelchairtext.net/program/1745/
      - sudo apt-get install libatlas-base-dev
      - sudo apt-get install libjasper-dev
      - sudo pip3 --default-timeout=1000 install opencv-python
-   - haarcascade_frontalface_default.xmlとhaarcascade_eye.xmlを実行するpythonプログラムと同じフォルダにコピーし、ファイルパスをファイル名だけに変更した
+   - haarcascade_frontalface_default.xmlとhaarcascade_eye.xmlを実行するpythonプログラムと同じフォルダにコピーし、ファイルパスをファイル名だけに変更した（エラー：OpenCV(4.5.1) /tmp/pip-wheel-qd18ncao/opencv-python/opencv/modules/objdetect/src/cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'detectMultiScale' の対策）
    - メモ：このサンプルアプリのデモ動画では、撮影時（camera.start_preview()）で一旦カメラ映像がでるが、私のデバイスでは出なかった。最後の結果は表示される。
 
 ### C#アプリの動かし方
