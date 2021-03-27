@@ -138,6 +138,12 @@ http://wheelchairtext.net/program/1745/
 - Thonnyとspyderがある
 - VSCodeも使える
 
+### 画像解析
+https://www.pc-koubou.jp/magazine/19205
+
+1. OpenCV をインストール
+- sudo apt-get install python-opencv
+2. 私の環境では、cv2が見つからないというエラーになった
 
 
 ### C#アプリの動かし方
